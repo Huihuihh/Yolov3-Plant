@@ -36,10 +36,10 @@ dataset = { "info": {
             ]
 }
 
-datapath = "data/images"
+datapath = "plant-disease/images"
 annopath = "data/labels"
 trainsetfile = "data/plant.train.list"
-outputpath = "plant-disease"
+outputpath = "plant-disease/annotations"
 phase = "train"
 classes = {"background": 0, "strawberry_healthy": 1, "strawberry_Leaf_scorch": 2, "pepper_bacterial_spot": 3, "pepper_healthy": 4, "potato_eb": 5, "potato_lb": 6, "potato_healthy": 7, "apple_scab": 8, "apple_black_rot": 9, "apple_healthy": 10, "apple_cedar_rust": 11, "grape_black_rot": 12, "grape_blight": 13, "grape_esca": 14, "grape_healthy": 15, "peach_healthy": 16, "peach_bacterial_spot": 17, "cherry_healthy": 18, "cherry_sour_powdery_mildew": 19}
 

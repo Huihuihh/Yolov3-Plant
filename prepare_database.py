@@ -5,7 +5,7 @@ import shutil
 names_file = "data/plant.names.list"
 train_file = "data/plant.train.list"
 test_file = "data/plant.test.list"
-img_path = "data/images/"
+img_path = "plant-disease/images/"
 label_path = "data/labels/"
 
 cwd = os.getcwd()
